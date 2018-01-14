@@ -1,0 +1,65 @@
+@mixin start{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+@mixin flex_content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+@mixin flex_between{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+@mixin flex_around{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+@mixin flex_ward{
+  display: flex;
+  flex-wrap: wrap;
+}
+@mixin position_content{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+@mixin position_tb{
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+@mixin position_lr{
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+}
+@mixin background-image{
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center center;
+}
+@mixin text_justify{
+  content: '';
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+@mixin clear{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}

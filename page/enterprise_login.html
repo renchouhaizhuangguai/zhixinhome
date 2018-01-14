@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>企业登录</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/news_public.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div id="app">
+    <!--导航和banner-->
+    <div class="public_head">
+        <!--导航-->
+        <div class="head_nav">
+            <div class="nav_Inside">
+                <div class="logo">
+                    <a class="Jump_logo" href=""></a>
+                </div>
+                <div class="plate">
+                    <div class="plate_box">
+                        <a href="">企业版</a>
+                    </div>
+                    <div class="plate_box active">
+                        <a href="">个人版</a>
+                    </div>
+                </div>
+                <ul class="second_level">
+                    <li><a href="enterprise_home.html">首页</a></li>
+                    <li><a href="enterprise_authentication.html">职信认证</a></li>
+                    <li><a href="enterprise_call.html">职趣名片</a></li>
+                </ul>
+                <div class="login">
+                    <a href="enterprise_login.html" class="active">登录</a>
+                    <a href="enterprise_register.html" >注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--个人登录-->
+    <div id="login">
+        <div class="login_box">
+            <div class="personal_login">
+                <div class="login_left float">
+                    <div class="admin">
+                        <h3>企业登录</h3>
+                        <form class="login" action="">
+                            <div class="form_con">
+                                <i class="iconfont icon-geren"></i>
+                                <input type="text" placeholder="手机号/用户名">
+                            </div>
+                            <div class="form_con">
+                                <i class="iconfont icon-suo"></i>
+                                <input type="text" placeholder="密码">
+                            </div>
+                            <p class="login_p">
+                                <a class="forget" href="">忘记密码？</a>
+                            </p>
+                            <button class="btn h_btn">登录</button>
+                            <p class="login_p1">
+                                <a href="enterprise_register.html">还没有账号？<span>立即注册</span></a>
+                            </p>
+                        </form>
+                        <div class="Jump_login">
+                            <a href="personal_login.html">
+                                切换个人登录
+                                <i class="iconfont icon-youjiantou"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>版权所有：上海履途网路科技有限公司</p>
+                        <p>
+                            <span>© 2018 www.hrzhixin.com</span><span>沪ICP备17015994号</span><span>沪公网安备 31010402004118号</span>
+                            <img class='beian' src="../img/n_beian.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <img src="../img/n_login_beijing1.png" class="login_right float_right"/>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/jquery-1.9.1.min.js"></script>
+<script>
+    $(function () {
+        //登录注册
+        var login=$('#login');
+        var w_Height=window.innerHeight;
+        var login_box=login.find('.login_box').height()+110;
+        if(w_Height>login_box){
+            var num=parseFloat(w_Height-login_box)/2+30;
+            login.css({margin:num + "px 0"})
+        }else{
+            login.css({margin:'30px 0'})
+        }
+    })
+</script>
