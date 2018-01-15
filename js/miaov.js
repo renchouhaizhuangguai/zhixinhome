@@ -32,7 +32,7 @@ window.onload=function ()
 	for(i=0;i<aA.length;i++)
 	{
 		oTag={};
-		color=`rgba(${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)},${Math.floor(Math.random()*255)},0.9)`;
+		color="rgba(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + ",0.9)";;
         aA[i].style.background=color;
 		oTag.offsetWidth=aA[i].offsetWidth;
 		oTag.offsetHeight=aA[i].offsetHeight;

@@ -80,6 +80,11 @@ html, body {
         .public_head .head_nav .nav_Inside .plate .plate_box.active {
           background: #fc725e;
           background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+          background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+          background: -moz-linear-gradient(left, #ff6666, #ff9966);
+          background: -o-linear-gradient(left, #ff6666, #ff9966);
+          background: -ms-linear-gradient(left, #ff6666, #ff9966);
           color: #fff;
           transform: skewX(-15deg); }
           .public_head .head_nav .nav_Inside .plate .plate_box.active a {
@@ -134,7 +139,12 @@ html, body {
         .public_head .head_nav .nav_Inside .login a.active {
           color: #fff;
           background: #fc725e;
-          background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important; }
+          background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+          background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+          background: -moz-linear-gradient(left, #ff6666, #ff9966);
+          background: -o-linear-gradient(left, #ff6666, #ff9966);
+          background: -ms-linear-gradient(left, #ff6666, #ff9966); }
 
 .public_head .public_banner {
   width: 100%;
@@ -394,11 +404,16 @@ html, body {
           width: 140px;
           height: 40px;
           border-radius: 40px;
-          background: #fc725e;
           text-align: center;
           line-height: 40px;
           font-size: 16px;
+          background: #fc725e;
           background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+          background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+          background: -moz-linear-gradient(left, #ff6666, #ff9966);
+          background: -o-linear-gradient(left, #ff6666, #ff9966);
+          background: -ms-linear-gradient(left, #ff6666, #ff9966);
           color: #fff;
           margin-top: 20px; }
           .public_module .plate_two_module .enter_back .back_left a.enter_call_jump {
@@ -751,11 +766,21 @@ html, body {
           .public_module .plate_two_module .letter_report .nav_li li:hover {
             background: #fc725e;
             background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+            background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+            background: -moz-linear-gradient(left, #ff6666, #ff9966);
+            background: -o-linear-gradient(left, #ff6666, #ff9966);
+            background: -ms-linear-gradient(left, #ff6666, #ff9966);
             width: 140px;
             color: #fff; }
           .public_module .plate_two_module .letter_report .nav_li li.active {
             background: #fc725e;
             background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+            background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+            background: -moz-linear-gradient(left, #ff6666, #ff9966);
+            background: -o-linear-gradient(left, #ff6666, #ff9966);
+            background: -ms-linear-gradient(left, #ff6666, #ff9966);
             width: 140px;
             color: #fff; }
             .public_module .plate_two_module .letter_report .nav_li li.active:after {
@@ -764,6 +789,11 @@ html, body {
               height: 10px;
               background: #fc725e;
               background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+              background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+              background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+              background: -moz-linear-gradient(left, #ff6666, #ff9966);
+              background: -o-linear-gradient(left, #ff6666, #ff9966);
+              background: -ms-linear-gradient(left, #ff6666, #ff9966);
               border-radius: 50%;
               position: absolute;
               top: 0;
@@ -890,6 +920,11 @@ html, body {
           padding: 10px 27px;
           background: #fc725e;
           background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+          background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+          background: -moz-linear-gradient(left, #ff6666, #ff9966);
+          background: -o-linear-gradient(left, #ff6666, #ff9966);
+          background: -ms-linear-gradient(left, #ff6666, #ff9966);
           margin-top: 190px;
           position: relative; }
           .public_module .plate_two_module .letter_report .enter_show .enter_text img {
@@ -1013,7 +1048,13 @@ html, body {
             margin-top: 10px; }
             .public_module .plate_two_module .Online_back_tone .Letter ul li span {
               display: inline-block;
+              background: #fc725e;
               background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+              background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+              background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+              background: -moz-linear-gradient(left, #ff6666, #ff9966);
+              background: -o-linear-gradient(left, #ff6666, #ff9966);
+              background: -ms-linear-gradient(left, #ff6666, #ff9966);
               padding: 0 20px;
               line-height: 40px;
               border-radius: 50px;
@@ -1104,7 +1145,12 @@ html, body {
             border-radius: 0 30px 30px 30px;
             margin-left: 13px;
             background: #fc725e;
-            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important; }
+            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+            background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+            background: -moz-linear-gradient(left, #ff6666, #ff9966);
+            background: -o-linear-gradient(left, #ff6666, #ff9966);
+            background: -ms-linear-gradient(left, #ff6666, #ff9966); }
           .public_module .plate_two_module .enter_get .enter_get_ul li .li_bottom {
             width: 150px;
             height: 150px;
@@ -1113,7 +1159,12 @@ html, body {
             text-align: center;
             padding-top: 42px;
             background: #fc725e;
-            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important; }
+            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+            background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+            background: -moz-linear-gradient(left, #ff6666, #ff9966);
+            background: -o-linear-gradient(left, #ff6666, #ff9966);
+            background: -ms-linear-gradient(left, #ff6666, #ff9966); }
             .public_module .plate_two_module .enter_get .enter_get_ul li .li_bottom .iconfont {
               display: block;
               font-size: 40px;
@@ -1130,16 +1181,31 @@ html, body {
             font-weight: bold; }
         .public_module .plate_two_module .enter_get .enter_get_ul li:nth-child(2) .li_top {
           background: #6699ff;
-          background: -webkit-gradient(linear, left top, right bottom, from(#6699ff), to(#66ccff)) !important; }
+          background: -webkit-gradient(linear, left top, right bottom, from(#6699ff), to(#66ccff)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#6699ff), to(#66ccff));
+          background: -webkit-linear-gradient(left, #6699ff, #66ccff);
+          background: -moz-linear-gradient(left, #6699ff, #66ccff);
+          background: -o-linear-gradient(left, #6699ff, #66ccff);
+          background: -ms-linear-gradient(left, #6699ff, #66ccff); }
         .public_module .plate_two_module .enter_get .enter_get_ul li:nth-child(2) .li_bottom {
           background: #6699ff;
           background: -webkit-gradient(linear, left top, right bottom, from(#6699ff), to(#66ccff)) !important; }
         .public_module .plate_two_module .enter_get .enter_get_ul li:nth-child(3) .li_top {
           background: #ff9966;
-          background: -webkit-gradient(linear, left top, right bottom, from(#ff9966), to(#ffcc66)) !important; }
+          background: -webkit-gradient(linear, left top, right bottom, from(#ff9966), to(#ffcc66)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9966), to(#ffcc66));
+          background: -webkit-linear-gradient(left, #ff9966, #ffcc66);
+          background: -moz-linear-gradient(left, #ff9966, #ffcc66);
+          background: -o-linear-gradient(left, #ff9966, #ffcc66);
+          background: -ms-linear-gradient(left, #ff9966, #ffcc66); }
         .public_module .plate_two_module .enter_get .enter_get_ul li:nth-child(3) .li_bottom {
           background: #ff9966;
-          background: -webkit-gradient(linear, left top, right bottom, from(#ff9966), to(#ffcc66)) !important; }
+          background: -webkit-gradient(linear, left top, right bottom, from(#ff9966), to(#ffcc66)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9966), to(#ffcc66));
+          background: -webkit-linear-gradient(left, #ff9966, #ffcc66);
+          background: -moz-linear-gradient(left, #ff9966, #ffcc66);
+          background: -o-linear-gradient(left, #ff9966, #ffcc66);
+          background: -ms-linear-gradient(left, #ff9966, #ffcc66); }
     .public_module .plate_two_module .enter_Evaluation {
       width: 100%;
       height: auto;
@@ -1225,12 +1291,17 @@ html, body {
             width: 100%;
             height: 100%;
             border-radius: 40px;
-            background: #fc725e;
             font-size: 16px;
             color: #fff;
             text-align: center;
             line-height: 36px;
-            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important; }
+            background: #fc725e;
+            background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+            background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+            background: -moz-linear-gradient(left, #ff6666, #ff9966);
+            background: -o-linear-gradient(left, #ff6666, #ff9966);
+            background: -ms-linear-gradient(left, #ff6666, #ff9966); }
             .public_module .plate_two_module .btn a .button .button_box i {
               color: #fff; }
         .public_module .plate_two_module .btn a .btn_garden {
@@ -1283,7 +1354,12 @@ html, body {
           color: #333; }
         .clause_banner .banner_foot ul li.active {
           background: #fc725e;
-          background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important; }
+          background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+          background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+          background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+          background: -moz-linear-gradient(left, #ff6666, #ff9966);
+          background: -o-linear-gradient(left, #ff6666, #ff9966);
+          background: -ms-linear-gradient(left, #ff6666, #ff9966); }
           .clause_banner .banner_foot ul li.active a {
             color: #fff; }
 
@@ -1593,6 +1669,11 @@ html, body {
         height: 30px;
         background: #fc725e;
         background: -webkit-gradient(linear, left top, right bottom, from(#ff6666), to(#ff9966)) !important;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#ff6666), to(#ff9966));
+        background: -webkit-linear-gradient(left, #ff6666, #ff9966);
+        background: -moz-linear-gradient(left, #ff6666, #ff9966);
+        background: -o-linear-gradient(left, #ff6666, #ff9966);
+        background: -ms-linear-gradient(left, #ff6666, #ff9966);
         border-radius: 5px;
         font-size: 14px;
         color: #fff;

@@ -8,6 +8,7 @@
     <title>企业首页</title>
     <link rel="stylesheet" href="../css/news_public.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/anmiment.css">
 </head>
 <body>
 <div id="app">
@@ -67,11 +68,11 @@
             <div class="Online_back_tone">
                 <div class="Letter float">
                     <ul>
-                        <li><span>百人背调，一键完成</span></li>
-                        <li><span>2~320元超低价体验</span></li>
-                        <li><span>随取随看，平台电子化备案</span></li>
-                        <li><span>纯线上操作，企业背书真实性</span></li>
-                        <li><span>最快1秒，最慢3天内交付报告</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="0.3s"><span>百人背调，一键完成</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="0.9s"><span>2~320元超低价体验</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="1.5s"><span>随取随看，平台电子化备案</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="2.1s"><span>纯线上操作，企业背书真实性</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="2.7s"><span>最快1秒，最慢3天内交付报告</span></li>
                     </ul>
                     <div class="letter_box">
                         职信网
@@ -79,11 +80,11 @@
                 </div>
                 <div class="Letter tradition float">
                     <ul>
-                        <li><span>重复接受背调，记录无法保存</span></li>
-                        <li><span>2~1000~5000元昂贵费用</span></li>
-                        <li><span>报告内容口口相传、准确性难以保证</span></li>
-                        <li><span>到处打电话确认信息</span></li>
-                        <li><span>周期3~7天</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="0.6s"><span>重复接受背调，记录无法保存</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="1.2s"><span>2~1000~5000元昂贵费用</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="1.8s"><span>报告内容口口相传、准确性难以保证</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="2.4s"><span>到处打电话确认信息</span></li>
+                        <li class="experience wow fadeInRight animated animated animated" data-wow-delay="2.7"><span>周期3~7天</span></li>
                     </ul>
                     <div class="tradition_box">
                         传统<br>背调
@@ -153,7 +154,7 @@
             </div>
             <div class="enter_get">
                 <ul class="enter_get_ul">
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.3s">
                         <div class="li_top">
                             Step 01
                         </div>
@@ -163,7 +164,7 @@
                         </div>
                         <p>企业</p>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.6s">
                         <div class="li_top">
                             Step 02
                         </div>
@@ -173,7 +174,7 @@
                         </div>
                         <p>个人</p>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.9s">
                         <div class="li_top">
                             Step 03
                         </div>
@@ -359,8 +360,11 @@
 <script src="../js/news_public.js"></script>
 
 <script src="../js/miaov.js"></script>
+
+<script src="../js/animent.js"></script>
 <script>
     $(function () {
+        new WOW().init();
         /*单推轮播*/
         $("#pic_list_2").cxScroll({direction:"left",step:1,time:10000});
     });

@@ -8,6 +8,7 @@
     <title>职趣名片</title>
     <link rel="stylesheet" href="../css/news_public.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/anmiment.css">
 </head>
 <body>
 <div id="app">
@@ -94,19 +95,19 @@
             </div>
             <div class="letter_report">
                 <ul class="report_list float report_call">
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.2s">
                         <div class="li_box">
                             <img src="../img/n_shanghai_compory.png" alt="">
                             <div class="content">个人发起企业认证</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.5s">
                         <div class="li_box">
                             <img src="../img/n_shanghai_com.png" alt="">
                             <div class="content">企业认证个人</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.8s">
                         <div class="li_box">
                             <img src="../img/n_dun_red.png" alt="">
                             <div class="content">认证标识</div>
@@ -274,3 +275,10 @@
 <script src="../js/tab.js"></script>
 <!--公共部分js-->
 <script src="../js/news_public.js"></script>
+
+<script src="../js/animent.js"></script>
+<script>
+    $(function () {
+        new WOW().init();
+    })
+</script>

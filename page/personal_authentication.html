@@ -8,6 +8,7 @@
     <title>职信认证</title>
     <link rel="stylesheet" href="../css/news_public.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/anmiment.css">
 </head>
 <body>
 <div id="app">
@@ -59,22 +60,22 @@
         <div class="plate_two_module">
             <div class="name">
                 <h4 class="title">职信报告，记录你的职业轨迹</h4>
-                <p class="content">掌舵自己的职场方向</p>
+                <p>掌舵自己的职场方向</p>
             </div>
             <div class="letter_report">
                 <div class="letter_Line">
                     <img class="line_xiang" src="../img/n_xiang.png" alt="">
                     <ol class="flash">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="0.1s"></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="0.4s"></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="0.7s"></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="1s"></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="1.3s"></li>
+                        <li class="wow fadeInUp animated animated" data-wow-delay="1.6s"></li>
                     </ol>
                     <ul class="line_content">
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="0.2s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -86,7 +87,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="0.5s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -97,7 +98,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="0.8s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -109,7 +110,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="1.1s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -121,7 +122,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="1.4s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -133,7 +134,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="li">
+                            <div class="li wow bounceIn animated animated animated" data-wow-delay="1.7s">
                                 <div class="gardens">
                                     <i class="iconfont icon-fangzi"></i>
                                 </div>
@@ -309,8 +310,12 @@
 <script src="../js/tab.js"></script>
 <!--公共部分js-->
 <script src="../js/news_public.js"></script>
+
+<script src="../js/animent.js"></script>
 <script>
     $(function () {
+        new WOW().init();
+
         var nav_li=$('.nav_li li');
         var Computer_box=$('.Computer_box img');
         nav_li.on('click',function () {

@@ -8,6 +8,7 @@
     <title>个人首页</title>
     <link rel="stylesheet" href="../css/news_public.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/anmiment.css">
 </head>
 <body>
 <div id="app">
@@ -72,19 +73,19 @@
             </div>
             <div class="letter_report">
                 <ul class="report_list float">
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.2s">
                         <div class="li_box">
                             <img src="../img/n_record.png" alt="">
                             <div class="content">记录职业生涯</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.5s">
                         <div class="li_box">
                             <img src="../img/n_Administration.png" alt="">
                             <div class="content">动态管理</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.8s">
                         <div class="li_box">
                             <img src="../img/n_exchange.png" alt="">
                             <div class="content">报告代替简历</div>
@@ -127,25 +128,25 @@
             </div>
             <div class="letter_report">
                 <ul class="report_list float">
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.2s">
                         <div class="li_box">
                             <img src="../img/n_record.png" alt="">
                             <div class="content">一扫即存</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.5s">
                         <div class="li_box">
                             <img src="../img/n_Administration.png" alt="">
                             <div class="content">职位认证</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="0.8s">
                         <div class="li_box">
                             <img src="../img/n_exchange.png" alt="">
                             <div class="content">动态更新</div>
                         </div>
                     </li>
-                    <li>
+                    <li class="wow bounceIn animated animated animated animated" data-wow-delay="1.1s">
                         <div class="li_box">
                             <img src="../img/n_exchange.png" alt="">
                             <div class="content">企业查询</div>
@@ -315,8 +316,12 @@
 <script src="../js/tab.js"></script>
 <!--公共部分js-->
 <script src="../js/news_public.js"></script>
+
+<script src="../js/animent.js"></script>
+
 <script>
     $(function () {
+        new WOW().init();
         /*单推轮播*/
         $("#pic_list_2").cxScroll({direction:"left",step:1,time:10000});
     });
